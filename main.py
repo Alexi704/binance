@@ -4,7 +4,7 @@ from datetime import datetime
 
 course_list = []
 url = "https://fapi.binance.com/fapi/v1/ticker/price"
-time_life = 3600  # в секундах время жизни собираемых значений
+time_life = 3600  # время жизни (в секундах) собираемых значений
 now_price: float = 0
 quote_time = None
 
